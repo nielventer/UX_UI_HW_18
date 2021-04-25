@@ -1,0 +1,309 @@
+
+
+
+.logo-container {
+    width: auto;
+    margin: auto;
+    border: 3px solid white;
+    float: left;
+  }
+  
+  
+  .nav-container {
+    width: auto;
+    margin: auto;
+    border: 3px solid white;
+    float: right;
+  }
+  
+  
+  .navheader2 {
+   width: auto;
+    height: 30px;
+    background-color: #406282;
+    padding-top: 10px;
+  }
+  
+  
+  .nav-container2 {
+    width: auto;
+    margin: auto;
+    border: 3px solid 406282;
+    float: right;
+  }
+  
+  
+  
+  .logo-small.svg {
+  
+       float: left;
+  
+  }
+  
+  .redline {
+   width: 300px;
+    height: 1px;
+    border: 1px red; 
+  }
+  
+  .navheader {
+   width: auto;
+    height: 40px;
+    border: 1px solid white 
+    padding 10px;
+  }
+  
+  .logo-container {
+  margin-left: 8em
+  }
+  
+  .nav-right {
+    color: white;
+     margin-right: 8em
+    
+  }
+  
+  .nav-about {
+     margin-right: 3em
+  }
+  
+  .nav-skills {
+     margin-right: 3em
+  }
+  
+  .nav-work {
+     margin-right: 3em
+  }
+  
+  .nav-contact {
+     margin-right: 3em
+  }
+  
+  .nav-resume {
+     margin-right: 3em
+  }
+  
+  .nav-digital {
+     margin-right: 3em
+  }
+  
+  .nav-illustrator {
+     margin-right: 3em
+  }
+  
+  .nav-graphic-design {
+     margin-right: 3em
+  }
+  
+  .nav-environmental-design {
+     margin-right: 3em
+  }
+  
+  
+  
+  .skills-hero {
+  width: auto;
+    justify-content: space-around;
+  }
+  
+  .footer {
+  width: auto;
+  height: 225px;
+  margin: auto;
+  border: 1px solid #555658#73AD21;
+  background-color: #555658;
+  }
+  
+  .footer-contact-section {
+    width: 293px;
+    height: 225px;
+    border: 1px solid #555658;
+  }
+  
+  .footer-contact-header {
+    font-size:35px;
+    font-weight: Bold;
+    position:relative; top:10px
+  }
+  
+  .footer-contact-body {
+    position:relative; bottom:18px
+  }
+  
+  .footer-main-nav-section {
+  font-family: Alice;
+  width: 160px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  .footer-main-nav-section-2 {
+  font-family: Alice;
+  width: 250px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  .footer-main-nav-section-3 {
+  font-family: Alice;
+  width: 160px;
+  height: 192px;
+  border: 1px solid #555658;
+  padding-top: 2em;
+  }
+  
+  
+  .footer{
+   display: flex;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    float: right;
+    padding-right: 3em;
+  }
+  
+  
+  #skill-container {
+    padding-left: 5em;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 258px 245;
+    grid-template-rows: 245px;
+    grid-template-areas:
+    "skill-box1"
+    "skill-box2"
+    "skill-box3"
+    ;
+    }
+  
+    #work-container{
+    display: flex;
+    justify-content: space-around;
+    }
+  
+  
+  .skill-box1 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .skill-research-icon {
+    width:285;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+    
+  }
+  
+  .skill-box2 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .skill-wireframe-icon {
+    width:285px;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+    
+  }
+  
+  .skill-box3 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .skill-ui-icon {
+    width:285px;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+  
+  
+  }
+  
+  
+  
+  .work-box1 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .skill-research-icon {
+    width:285;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+    
+  }
+  
+  .work-box2 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .skill-wireframe-icon {
+    width:285px;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+    
+  }
+  
+  .work-box3 {
+    width:775px;
+    height: 250px;
+    border: 1px solid red;
+    position: center;
+  }
+  
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .default:hover {
+    background: #e7e7e7;
+  }
+  /* On mouse-over */
+  .btn:hover {background: #eee;}
+  
+  .success {color: green;}
+  .info {color: dodgerblue;}
+  .warning {color: orange;}
+  .danger {color: red;}
+  .btn read-more {color: black;}
+  
+  .skill-ui-icon {
+    width:285px;
+    height: 215px;
+    border: 1px solid red;
+    position: center;
+  
+  }
+  @media only screen and (max-width:600){
+    #skill-container{
+      flex-direction:column;
+      display:flex;
+    }
+  }
+  
+  
+  
